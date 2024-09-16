@@ -23,7 +23,6 @@ ENV PYTHONUNBUFFERED=1
 # Recuerda cambiar 'myproject' por el nombre de tu proyecto en 'myproject.settings'
 # Se asegura que todas las migraciones estén aplicadas al iniciar el contenedor
 RUN python manage.py migrate
-RUN python manage.py createsuperuser --noinput
 
 # Define el comando de ejecución que corre el servidor de desarrollo de Django
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
