@@ -90,4 +90,4 @@ The app is deployed at https://product-management-latest.onrender.com (it may ta
 
 - Cover functionality with tests.
 - Remove dev mode to be fully ready for production
-- Replace sqlite connection by same type as production (e.g. Postrgres)
+- Replace sqlite connection by same type as production (e.g. Postgres)
